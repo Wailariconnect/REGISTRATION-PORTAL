@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>APPLICATION FORM </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div style="text-align: center;">
+  <img src="https://i.ibb.co/cShtR2Qz/20250810-010513.jpg" alt="Logo" style="width: 100px;">
+</div>
+<form action="https://formsubmit.co/sulaimandoggi01@gmail.com" method="POST" class="form-container">
+  <h2>BRIGHT FAMILY CENTER FOR JUSTICE HUMAN RIGHTS INITIATIVES</h2>
+  <h3>APPLICATION FORM</h3>
+
+  <fieldset>
+    <legend>Personal Information</legend>
+    <input type="text" name="Full Name" placeholder="Full Name" required>
+  <label for="dob">Date of Birth</label>
+<input type="date" id="dob" name="Date of Birth" required>
+  </select>
+</div>
+    <input type="text" name="Nationality" placeholder="Nationality" required>
+    
+    <select name="State of Origin" required>
+      <option value="">Select State of Origin</option>
+      <option>Abia</option><option>Adamawa</option><option>Akwa Ibom</option><option>Anambra</option>
+      <option>Bauchi</option><option>Bayelsa</option><option>Benue</option><option>Borno</option>
+      <option>Cross River</option><option>Delta</option><option>Ebonyi</option><option>Edo</option>
+      <option>Ekiti</option><option>Enugu</option><option>Gombe</option><option>Imo</option>
+      <option>Jigawa</option><option>Kaduna</option><option>Kano</option><option>Katsina</option><option>Kebbi</option><option>Kogi</option><option>Kwara</option><option>Lagos</option>
+      <option>Nasarawa</option><option>Niger</option><option>Ogun</option><option>Ondo</option>
+      <option>Osun</option><option>Oyo</option><option>Plateau</option><option>Rivers</option>
+      <option>Sokoto</option><option>Taraba</option><option>Yobe</option><option>Zamfara</option>
+      <option>FCT</option>
+    </select>
+
+    <input type="text" name="LGA" placeholder="Local Government Area" required>
+    <input type="text" name="NIN" placeholder="NIN Number" required>
+    <input type="text" name="Religion" placeholder="Religion" required>
+    <input type="text" name="Disability" placeholder="Disability (if any)">
+    
+  </fieldset>
+
+  <fieldset>
+    <legend>Contact Information</legend>
+    <input type="text" name="Address" placeholder="Full Address" required>
+    <input type="tel" name="Phone" placeholder="Phone Number" required>
+    <input type="email" name="Email" placeholder="Email Address" required>
+  </fieldset>
+
+     <fieldset>
+    <legend>Education Background</legend>
+    <select name="Education Level" required>
+      <option value="">Select Highest Education Level</option><option value="Primary School">Primary School</option>
+      <option value="Secondary School">Secondary School</option>
+      <option value="Tertiary Institution">Tertiary Institution</option>
+    </select>
+  </fieldset>
+  <fieldset>
+    <legend>Guarantor Information</legend>
+    <input type="text" name="Guarantor Name" placeholder="Full Name" required>
+    <input type="text" name="Guarantor Address" placeholder="Address" required>
+    <input type="tel" name="Guarantor Phone" placeholder="Phone Number" required>
+    <input type="email" name="Guarantor Email" placeholder="Email Address" required>
+  </fieldset>
+
+<!-- Payment Button -->
+<button type="button" onclick="togglePayment()" style="background-color: green; color: white; padding: 10px 20px; border: none; margin-top: 15px;">
+  Make Payment Here
+  
+</button>
+
+<!-- Payment Details -->
+
+<div id="payment-details" style="display: none; margin-top: 15px; border: 1px solid #ccc; padding: 10px;">
+  <h4>Bank Payment Details:</h4>
+  <p>
+    <b>Account Name:</b> SULAIMAN ABDULLAHI GIMBA<br>
+    <b>Account Number:</b> 0027779629<br>
+    <b>Bank:</b> Guarantee Trust Bank (GTB)
+  </p>
+  <p>Please make payment of 7,500 naira and enter a correct reciept reference number below:</p>
+  <input type="text" name="Payment Reference" placeholder="Payment Reference or Receipt number " required />
+</div>
+👈.....Please Make payment before submitting 
+  <button type="submit">Submit Application</button>
+</form>
+
+<script>
+  document.querySelector("form").addEventListener("submit", function () {
+    setTimeout(function () {
+      document.querySelector("form").reset();
+    }, 1000);
+  });
+</script>
+
+<input type="hidden" name="_redirect" value="https://codepen.io/Sani-Ahmad/pen/MYavyMX" />
+        Send payment receipt here
+<a href="https://wa.me/2349163635523?text=Hello%20Center%20for%20Justice%20Human%20Rights%2C%20I%20just%20submitted%20my%20application" target="_blank" class="whatsapp-btn">
+  Chat on WhatsApp
+</a>
+
+<a href="https://www.facebook.com/Center4Justice " target="_blank" class="facebook-btn">
+    Follow Us on Facebook
+  </a>
+
+  </div>
+<a href="https://yourwebsite.com" target="_blank" class="website-btn">
+  Visit Our Website
+</a>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
